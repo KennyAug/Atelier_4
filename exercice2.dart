@@ -12,3 +12,10 @@ class point {
     print("Point($_x, $_y)");
   }
 }
+
+void main() { 
+var pt = point(2, 5); 
+pt.display(); 
+pt.move(-1, 3); 
+pt.display(); 
+} 
