@@ -15,3 +15,7 @@ class Livre extends Media {
     print("Ceci est un livre : $titre par $auteur.");
   }
 }
+
+class Film extends Media {
+  final int dureeMinutes;
+  Film(super.titre, this.dureeMinute);
