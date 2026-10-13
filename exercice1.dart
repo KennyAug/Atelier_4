@@ -9,4 +9,7 @@ class Couleur {
   Couleur.bleu()
   : r = 0, g = 0, b = 255;
 
+void afficher_les_couleurs() {
+  print("(R :$r, V :$g, B :$b)");
+  }
 }
