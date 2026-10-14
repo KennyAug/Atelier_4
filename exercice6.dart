@@ -12,3 +12,11 @@ class ServeurAPI implements Connectable {
     print("ServeurAPI : Déconnexion réussie.");
   }
 }
+
+class BaseDeDonnees implements Connectable {
+  @override
+  void connecter(String utilisateur) 
+  {print("BaseDeDonnees : Connexion de la base pour $utilisateur. ");}
+  @override
+  void deconnecter() {print("BaseDeDonnees : Deconnexion de la base.")}
+}
